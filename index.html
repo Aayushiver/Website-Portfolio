@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ff2b4e9a4a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Black Purple and White Futuristic and Simple Galaxy Themed Desktop Wallpaper (3).png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Front End Developer</p>
+                <h1>Hi, I'm <span> Aayushi</span><br> Verma From India</h1>
+            </div>
+        </div>
+    </div>
+    <!------------------about---------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                <img src="images/user(1).png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Interested in learning and applying AI/ML technologies to create innovative solutions.
+                    I am an undergraduate student passionate about Artificial Intelligence and Machine Learning pursuing engineering from Bhilai Institute of Technology.
+                    Learning always excites me.I have explored various interests,llike acting, writing and sports, which helped me develop strong teamwork, leadership, and problem-solving skill
+                    I am currently working on my technical skills, to contribute in this field and eager to connect with professionals in the field and contribute to impactful ideas.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>BlockChain</span><br>Crypto-bridge</li>
+                                <li><span>AI/ML</span><br>Sentiment Analyser</li>
+                                <li><span>CPP</span><br>Calzo</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>November'23-August'24</span><br>Conveyner @BOL-The Dramatics Club of BIT-Durg</li>
+                                <li><span>June'23-August'23</span><br>BSP Vocational trainee</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2025</span><br>BTech from BIT-D</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-----------------------------services----------------------------------->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web design</h2>
+                <p>Creating responsive, visually engaging, and user-centric websites that bring your brand to life. I focus on seamless user experiences with modern aesthetics and intuitive navigation. </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-file-code"></i>
+                <h2>AI/ML</h2>
+                <p>Leveraging data to develop smart, adaptable solutions. My AI/ML services cover everything from predictive modeling to deep learning, helping clients turn data into actionable insights.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-book"></i>
+                <h2>BlockChain</h2>
+                <p>3. Offering secure and scalable blockchain solutions tailored to your needs. From decentralized applications to smart contracts, I bring transparency and innovation to help you stay ahead in the blockchain space.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------------------portfolio-------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Crypto-bridge</h3>
+                    <p>We’re transforming cross-border transactions with a decentralized blockchain solution using Web3 and Diamante Network. Enjoy instant, secure DIAM transfers across wallets and fiat-to-ETH conversion via MetaMask, offering a UPI-like experience without direct crypto handling.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Sentiment Analyser</h3>
+                    <p>A website that can be used to analyse the sentiment of the comments on social media posts across various platforms. - The posts can include a YouTube video, a tweet on X.com or a simple body of text from an article or report published online. The comments will be scrapped from these, as their URLs are provided, and sentiments will be shown in categories of positive, negative, and neutral.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Calzo</h3>
+                    <p>A calender system which can tell your Chinese Zodiac and Western Zodiac Sign according to your birthdate.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!------------------contact-------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i></i> aayushi20verma@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+919755330310</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/myresume(yptodate-includes everything).pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Aayushi. Made with <i class="fa-solid fa-heart"></i> GreatStack Tutorials</p>
+    </div>
+</div>
+
+
+<script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+</script>
+
+<script>
+
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzZ8vL-PVfvRJGIslrI78xKpD3truoGYcitaqUlvqAOZ6SuVHjoCRF0KfO38ZDff76_/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+</body>
+</html>
